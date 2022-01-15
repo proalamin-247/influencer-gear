@@ -1,0 +1,497 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common Style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.container {
+    width: 870px;
+    position: relative;
+    margin: 50px auto;
+}
+
+.container-header {
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*====================
+   header style start
+====================*/
+
+.top-head{
+    margin: 0 165px;
+    padding: 20px;
+    
+}
+
+.header {
+    height: 690px;
+    background-color: rgba(205, 242, 228, 0.878);
+    
+}
+
+.header-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    margin: 0 165px;
+}
+
+.half-width {
+    width: 90%;
+}
+
+.half-width h1 {
+    color: rgb(0, 0, 0);
+    height: 195px;
+    font-size: 45px;
+    margin-top: 90px;
+}
+
+.half-width img {
+    width: 95%;
+}
+
+.half-width .button {
+    margin-top: 20px;
+}
+
+.half-width .button .fas {
+    margin-left: 10px;
+}
+
+.half-width .button:hover a {
+    background-color: rgba(114, 240, 108, 0.966);
+    color: #000000;
+    transform: translateX(50px);
+}
+
+.half-width img:hover {
+    transition-duration: 2s;
+    transform: rotate(-20deg) translateX(-90px);
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button .fas {
+    margin-right: 10px;
+}
+
+/*====================
+   header style end
+====================*/
+
+
+/*====================
+   gadget style start
+====================*/
+
+#gadget-heading{
+    text-align: center;
+    font-size: 200%;
+    padding: 20px;
+}
+.fa-star{
+    color: orange;
+}
+
+.all-gadget{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    margin: 25px auto;
+}
+
+.gadget {
+    position: relative;
+    margin: auto 20px;
+    box-shadow: 0px 2px 18px #1e14a78f;
+    padding: 10px 2;
+    border-radius: 10px;
+}
+
+.gadget-img {
+    width: 92%;
+}
+
+.gadget img {
+    width: 100%;
+    margin: 4% 4% auto 4%;
+    display: inline-block;
+}
+
+.gadget-details {
+    width: 92%;
+    margin: 2% 4% 10% 4%;
+}
+
+.gadget-details h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+
+.gadget-details p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+.more-info{
+    text-align: right;
+}
+#more{
+    color: #E02C6D;
+    padding: 20px;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+
+/*====================
+   gadget style end
+====================*/
+
+/*====================
+   Offer/Subscribe style start
+====================*/
+#offer{
+    color: #E02C6D;
+}
+
+.subscribe-section {
+    background-color: #726bcf54;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 90px;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: rgb(0, 0, 0);
+}
+
+.subscribe-info {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.subscribe-form-control {
+    display: block;
+    width: 70%;
+    padding: 8px 50px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 19px;
+    border-radius: 30px;
+    background-image: linear-gradient(#E02C6D, #E02C6D);
+    color: white;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+/*====================
+   Offer/Subscribe style end
+====================*/
+
+
+/*--=================
+contact section start
+====================*/
+#contacts-us{
+    color: #E02C6D;
+    margin-bottom: 15px;
+}
+.contact-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-section-info {
+    text-align: center;
+    background-color: rgba(205, 242, 228, 0.878);
+    height: 220px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.button-googlemap {
+    text-decoration: none;
+    background-color: #4081EC;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    padding: 17px 40px;
+}
+/*--==================
+contact section end
+======================*/
+
+/*====================
+   footer style start
+====================*/
+.footer-main{
+    padding: 25px;
+    background-color: #0A0826;
+    color: white;
+}
+.footer-details{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.footer-icon {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+}
+
+.footer-icon .fab {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0A0826;
+    margin: 0 15px 20px;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.copyright {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #D9DBE1;
+}
+
+.footer-icon .fab:nth-child(1):hover {
+    color: #fff;
+    background-color: #4267B2;
+}
+
+.footer-icon .fab:nth-child(2):hover {
+    color: #fff;
+    background-color: #E1306C;
+}
+
+.footer-icon .fab:nth-child(3):hover {
+    color: #fff;
+    background-color: #1DA1F2;
+}
+
+.footer-icon .fab:nth-child(4):hover {
+    color: #fff;
+    background-color: #ff0000;
+}
+
+/*====================
+   footer style start
+====================*/
+
+
+
+
+
+@media (max-width: 668px){
+    .container {
+        width: 90%;
+        margin-bottom: -120px;
+    }
+    /* header */
+
+    .top-head{
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+
+    .header-info {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        margin: 0px;
+    }
+    .half-width .header-info {
+        display: inline-block;
+        margin: 4% 4% auto 4%;
+    }
+    .header {
+        height: 850px;
+        background-color: rgba(205, 242, 228, 0.878);
+    }
+    .half-width {
+        margin: 0 auto;
+        width: 75%;
+    }
+    .half-width h1 {
+        font-size: 35px;
+    }
+
+    /* player section  */
+    .all-gadget{
+        position: relative;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+
+    /* subscribe section  */
+    .subscribe-section {
+        border-radius: 5%;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 10px;
+
+    }
+    .subscribe-form-control{
+        width: 70%;
+        padding: 10px 40px;
+        font-size: 18px;
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+
+    /* contact-section */
+    .contact-section{
+        margin-bottom: -120px;
+        padding: 0;
+    }
+    .contact-section-div {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .button-whatsapp {
+        border-radius: 30px;
+        font-weight: 400;
+        padding: 9px 10px;
+    }
+    .contact-section-info {
+        width: auto;
+        /* height: 220px; */
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 50px;
+    }
+
+    /* fotter */
+    .footer-main {
+        margin-top: -90px;
+    }
+    .footer-heading{
+        font-size: 120%;
+    }
+
+    .footer-icon{
+        display: inline-block;
+        margin-left: 50%;
+        transform: translate(-50%);
+        padding: 27px;
+    }
+    .footer-icon .fab {
+        width: 4px;
+        font-size: 22px;
+        margin: 0 5px 20px;
+        padding: 5.5px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width:669px) and (max-width:992px){
+    .container {
+        width: 90%;
+        margin-bottom: -120px;
+    }
+.header-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.half-width h1{
+    font-size: 27px;
+}
+.half-width p{
+    font-size: 15px;
+}
+.half-width img{
+    width: 200%;
+}
+.button a{
+    font-size: 12px;
+    padding: 11px 16px;
+}
+
+    .all-gadget{
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    .more-info{
+        margin-bottom: 150px;
+    }
+    .contact-section-info{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+} 
